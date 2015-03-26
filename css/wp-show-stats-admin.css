@@ -11,4 +11,4 @@
 .inside ul li p{color:#fff;}
 .sidebar-box p a:hover{text-decoration:none;}
 .chartBox{width:48%; margin:0 2% 2% 0;}
-.chartBoxLarge{width:98%; margin-right:2%; margin-bottom:2%;}
+.chartBoxLarge{width: 98%; margin-right:2%; margin-bottom:2%;overflow: hidden;}
