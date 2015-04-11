@@ -4,7 +4,7 @@ Donate link: http://freelancer-coder.com
 Tags: statistics, statistics plugin, analysis, stats, custom post type stats, analysis plugin
 Requires at least: 3.0
 Tested up to: 4.1
-Version: 1.0
+Version: 1.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -68,6 +68,13 @@ Features:
 - 5 Most used tags with count of usage
 - 5 Less used tags with count of usage
 
+= Page stats =
+- Page by status (including Private, Pending, Draft, Published, Trash and Future)
+- Posts by year
+- Posts by months (Year wise)
+- 5 Shortest posts
+- 5 Longest posts
+
 For further information on plugin and suggestions/comments on how to customize the plugin please drop me a contact request from [http://freelancer-coder.com](http://freelancer-coder.com). If I will not able to provide complete support I will make sure that I will provide guidelines or some useful information for the addressed situation.
 
 == Installation ==
@@ -113,7 +120,16 @@ This is a very first release of the plugin, so bugs are predicted to show up. It
 7. Custom post types statistics
 
 == Changelog ==
-Nothing yet
+
+= 1.0 =
+* Initial release of this plugin
+= 1.1 =
+* Added new interface to see stats related to pages including page by month, by year, by status, longest page, shortest page.
+* Provided menu option to access page stats
+
 == Upgrade Notice ==
-Nothing yet
+= 1.1 =
+* Upgrade the plugin to see stats related to pages.
+
+
 

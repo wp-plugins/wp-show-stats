@@ -4,7 +4,7 @@
   Plugin URI: http://wordpress.org/extend/plugins/wp-show-stats/
   Description: Very useful plugin to see stats related to Pages, Posts, Comments, Categories, Users, Custom post types at one place.
   Author: Ashish Ajani
-  Version: 1.0
+  Version: 1.1
   Author URI: http://freelancer-coder.com/
   License: GPLv2 or later
  */
@@ -13,6 +13,7 @@
 defined('ABSPATH') or die("No script kiddies please!");
 
 // including required files
+include_once('includes/wp-show-stats-pages.php');
 include_once('includes/wp-show-stats-posts.php');
 include_once('includes/wp-show-stats-custom-posts.php');
 include_once('includes/wp-show-stats-comments.php');
@@ -30,6 +31,7 @@ function show_stats_add_menu_items() {
     add_submenu_page('wp_show_stats', 'Users Stats', 'Users Stats', 'manage_options', 'wp_show_stats_users', 'wp_show_stats_users');
     add_submenu_page('wp_show_stats', 'Tags Stats', 'Tags Stats', 'manage_options', 'wp_show_stats_tags', 'wp_show_stats_tags');
     add_submenu_page('wp_show_stats', 'Custom Post Types Stats', 'Custom Post Types Stats', 'manage_options', 'wp_show_stats_custom_post_types', 'wp_show_stats_custom_post_types');
+	add_submenu_page('wp_show_stats', 'Page Stats', 'Page Stats', 'manage_options', 'wp_show_stats_pages', 'wp_show_stats_pages');
 }
 add_action('admin_menu', 'show_stats_add_menu_items');
 
