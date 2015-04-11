@@ -70,10 +70,10 @@ Features:
 
 = Page stats =
 - Page by status (including Private, Pending, Draft, Published, Trash and Future)
-- Posts by year
-- Posts by months (Year wise)
-- 5 Shortest posts
-- 5 Longest posts
+- Page by year
+- Page by months (Year wise)
+- 5 Shortest pages
+- 5 Longest pages
 
 For further information on plugin and suggestions/comments on how to customize the plugin please drop me a contact request from [http://freelancer-coder.com](http://freelancer-coder.com). If I will not able to provide complete support I will make sure that I will provide guidelines or some useful information for the addressed situation.
 
